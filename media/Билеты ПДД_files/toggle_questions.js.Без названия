@@ -1,0 +1,17 @@
+$(document).ready(function() {
+	$('.choose-question a.btn').click(function() {
+		$('.choose-question a.btn').each(function() {
+			$(this).removeClass('active');
+		});
+	if (!($(this).hasClass('btn-success') || $(this).hasClass('btn-danger'))) {
+		$(this).addClass('active');
+	}
+
+		question = $(this).text();
+
+		$('.question').each(function() {
+			$(this).hide();
+		});
+		$('.question[question-id="' + question + '"]').show();
+	});
+});

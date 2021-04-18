@@ -1,0 +1,91 @@
+p {
+	margin: 0 !important;
+}
+
+.header {
+	background: #bbb;
+	font-size: 16px;
+	padding: 0 200px;
+	height: 80px;
+	margin-bottom: 60px;
+	line-height: 35px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo-img {
+	height: 60px;
+	width: 68px;
+}
+
+nav {
+	height: inherit;
+	margin-left: 120px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0 40px;
+}
+
+.header .active {
+	background: #999;
+}
+
+.content {
+	padding: 0 200px;
+}
+
+.header-h2 {
+	float: left;
+}
+
+#timer {
+	position: relative;
+	top: 20px;
+	margin-left: 20px;
+}
+
+.control-group {
+	padding: 0 !important;
+}
+
+.answers {
+	margin: 10px 0 20px;
+}
+
+.all-questions .button {
+	width: auto !important;
+}
+
+.choose-question {
+	margin-bottom: 10px;
+}
+
+.choose-question.addition {
+	display: none;
+}
+
+.choose-question .active {
+	background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+@media screen and (min-device-width: 740px) {
+	#menuBurger{
+		display: none;
+	}
+	#menufull{
+		display: block;
+	}
+}
+@media screen and (max-device-width: 740px) {
+	#menuBurger{
+		display: block;
+	}
+	#menufull{
+		display: none;
+	}
+}

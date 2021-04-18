@@ -1,0 +1,26 @@
+$( "#clickme" ).click(function() {
+    $( "#form-input" ).hide();
+    $( "#form-reg" ).show();
+  });
+$( "#enter" ).click(function() {
+  $( "#form-reg" ).hide();
+  $( "#form-input" ).show();
+}); 
+
+function reset(){
+  var ex = 1;
+  $.ajax({
+    type: "POST",
+    url: "exit.php",
+    data: {ex:ex}
+}).done(function( result )
+    {
+        //alert(result);
+        document.getElementById("useName").innerHTML="Войти";
+        document.location.href = "index.php";
+    });
+}
+
+
+
+
