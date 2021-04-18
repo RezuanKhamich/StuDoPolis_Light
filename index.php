@@ -77,7 +77,6 @@
                     <h1 class="mainlogo-title"><img class="mainlogo-img" src="../media/logo.png" alt="">GoGame</h1>
                 </div>
                 <div>
-                <a href="mypage.php">1</a>
                     <h3 class="maintext-top">Открой мир разработки игр с <br>GoGame</h3>
                     <h5 class="maintext-bottom">Изучай программирование, 3D моделирование <br> и 2D рисунок в игровой форме. <br>Изучай GameDev, играя!</h5>
                 </div>
@@ -114,21 +113,6 @@
             </form>
             <!--<a href="firstpage.php" style="color:black;">Давид</a>
             <a href="game.php" style="color:black;">Игра</a> -->
-            
-            <a href="">2</a>
-            <a href="">3</a>
-            <a href="">4</a>
-            <a href="">5</a>
-            <a href="">6</a>
-            <a href="">7</a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
         </div>
         
     </main>
