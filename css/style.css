@@ -572,6 +572,7 @@ svg >path{
 .direction-text{
   line-height: 1;
   margin-bottom: 35px;
+  word-wrap: break-word;
 }
 .direction-param{
   font-size: 15px;
@@ -812,22 +813,27 @@ svg >path{
 .grid-container .course-btn:nth-of-type(2) {
   grid-column: 3; 
   grid-row: 1;
+  font-size: 0.5em;
 }
 .grid-container .course-btn:nth-of-type(3) {
   grid-column: 3; 
   grid-row: 2;
+  font-size: 0.5em;
 }
 .grid-container .course-btn:nth-of-type(4) {
   grid-column: 3; 
   grid-row: 3;
+  font-size: 0.5em;
 }
 .grid-container .course-btn:nth-of-type(5) {
   grid-column: 2; 
   grid-row: 3;
+  font-size: 0.5em;
 }
 .grid-container .course-btn:nth-of-type(6) {
   grid-column: 1; 
   grid-row: 3;
+  font-size: 0.5em;
 }
 .grid-container .course-btn:nth-of-type(7) {
   grid-column: 1/4; 
@@ -836,6 +842,9 @@ svg >path{
 .course-btn button{
   width: 100%;
   height: 100%;
+}
+.direction-param span img {
+  width: 25px;
 }
 
 /*Заказы*/
@@ -877,11 +886,15 @@ svg >path{
   display: block;
   opacity: 0.7;
 }
-.modal-dialog{
-  position: absolute;
-  top: 70%;
+.message-dialog{
+  position: fixed;
+  bottom: 1%;
   right: 1%;
-  width: auto;
+  width: 400px;
+  border: 1px solid #c7c5c5;
+  background: #ffffff;
+  border-radius: 0.5em;
+  opacity: 0.8;
 }
 .modal-content{
   width: 400px;

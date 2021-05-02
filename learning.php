@@ -27,80 +27,87 @@
             </div>
             <div class="grid-container">
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case bg-primary">
-                        <span class="direction-progress">0%</span>
+                    <button class="btn btn-case btn-outline-secondary">
+                        <p><span class="direction-progress">0%</span></p>
                         <p class="direction-text">Программирование на С#</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case">
-                        <span class="direction-progress">0%</span>
-                        <p class="direction-text">Математика</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                    <button class="btn btn-outline-secondary btn-case">
+                        <p><span class="direction-progress">0%</span></p>
+                        <p class="direction-text">Программирование на С#</p> 
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case bg-primary">
-                        <span class="direction-progress">0%</span>
-                        <p class="direction-text">Физика</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                    <button class="btn btn-outline-secondary btn-case">
+                        <p><span class="direction-progress">0%</span></p>
+                        <p class="direction-text">Программирование на С#</p> 
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case bg-danger">
-                        <span class="direction-progress">0%</span>
-                        <p class="direction-text">Python</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                    <button class="btn btn-outline-secondary btn-case">
+                        <p><span class="direction-progress">0%</span></p>
+                        <p class="direction-text">Программирование на С#</p> 
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case bg-success">
-                        <span class="direction-progress">0%</span>
-                        <p class="direction-text">Unity</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                    <button class="btn btn-outline-secondary btn-case">
+                        <p><span class="direction-progress">0%</span></p>
+                        <p class="direction-text">Программирование на С#</p> 
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case bg-warning">
-                        <span class="direction-progress">0%</span>
-                        <p class="direction-text">Unreal Engine</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                    <button class="btn btn-outline-secondary btn-case">
+                        <p><span class="direction-progress">0%</span></p>
+                        <p class="direction-text">Программирование на С#</p> 
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
                 <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-secondary btn-case bg-success">
-                        <span class="direction-progress">0%</span>
-                        <p class="direction-text">3D моделирование в Blender</p> 
-                        <div class="direction-param">
-                            <span>5 модулей</span>
-                            <span>24 часа</span>
-                            <span>1528 участников</span>
-                        </div>
+                    <button class="btn btn-outline-secondary btn-case">
+                        <p><span class="direction-progress">0%</span></p>
+                        <p class="direction-text">Программирование на С#</p> 
+                        <p class="direction-param">
+                            <span>5 <img src="media/module_black.png" alt=""></span>
+                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
+                            <span>4/22 <img src="media/test_black.png" alt=""></span>
+                            <span>15/45 <img src="media/work_black.png" alt=""></span>
+                        </p>
                     </button>
                 </a>
             </div>
