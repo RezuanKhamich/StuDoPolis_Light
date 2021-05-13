@@ -17,7 +17,7 @@
                     </div>\
                     <div class="modal-footer"> \
                         <button type="button" class="btn btn-primary">Принять</button>\
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отклонить</button>\
+                        <button type="button" class ="btn btn-secondary" data-dismiss="modal">Отклонить</button>\
                     </div>\
                     </div>\
                 </div>');
@@ -41,7 +41,22 @@
         </div>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/verticalmenu.js"></script>
-
+    <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>   ton type="button" class="btn btn-secondary" data-dismiss="modal">Отклонить</button>\
+                    </div>\
+                    </div>\
+                </div>');
+            $('.message-dialog:last-child').css({"bottom": `${bottomTransperent}%`});  
+            bottomTransperent +=17;
+                      </div>\
+                </div>');
+            $('.message-dialog:last-child').css({"bottom": `${bottomTransperent}%`});  
+            bottomTransperent +=17;
+                      </div>\
+                </div>');
+            $('.message-dialog:last-child').css({"bottom": `${bottomTransperent}%`});  
+            bottomTransperent +=17;
+        });
+        $('.message-dialog').on('click'-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

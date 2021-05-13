@@ -382,6 +382,7 @@ table{
   outline: none;
   background-color: rgb(255, 255, 255);
   margin: 10px;
+  width: 100%;
 }
 .pay-content{
   display: grid;
@@ -558,6 +559,9 @@ svg >path{
 /*HomeEND*/
 
 /* ОБУЧЕНИЕ */
+.course-row{
+  display: flex;
+}
 .btn-case{
   padding: 0px;
 }
@@ -565,20 +569,32 @@ svg >path{
   position: relative;
   left: 45%;
   font-size: 20px;
-  padding: 10px;
-  border: 1px solid;
+  width: 50px;
+  border: 1px solid #464646;
   border-radius: 50%;
+  text-align: center;
+  height: 50px;
+}
+.direction-progress span{
+  line-height: 49px;
 }
 .direction-text{
   line-height: 1;
   margin-bottom: 35px;
-  word-wrap: break-word;
+  word-wrap: anywhere;
+  font-size: 24px;
+  margin-top: 55px;
+  padding: 0 8px;
+  height: 65px;
 }
 .direction-param{
   font-size: 15px;
   display: flex;
   justify-content: space-between;
-  padding: 5px 90px;
+  padding: 5px;
+}
+.big-plate{
+  position: relative;
 }
 
 
@@ -595,19 +611,19 @@ svg >path{
   line-height: 49px;
   margin: 0 20px;
   font-size: 20px;
+  color: white;
 }
 .lesson-title{
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
+  text-align: start;
+  padding: 5px;
+  color: white;
 }
 .lesson-block{
   display: flex;
-  background: rgb(137, 136, 136);
   border-radius: 10px;
-  padding: 10px;
-  color: white;
   justify-content: space-between;
-  margin-bottom: 12px;
 }
 .lessong-img{
   width: 50px;
@@ -627,6 +643,20 @@ svg >path{
 }
 .lesson-cell:nth-of-type(1){
   background-color: #7ad09b;
+}
+.course-type{
+  font-size: 17px;
+  background: gray;
+  color: white;
+  position: absolute;
+  left: 0%;
+  border-radius: 0 0 5px 0;
+  width: 90px;
+  opacity: 0.6;
+}
+.module-sections{
+  width: 100%;
+  margin-bottom: 3px;
 }
 
 
@@ -800,7 +830,7 @@ svg >path{
 }
 /*Обучение*/
 .grid-container {
-  max-width: 710px;
+  max-width: 1140px;
   display: grid;  
   grid-template-columns: repeat(3,1fr); 
   grid-template-rows: repeat(4,250px); 
@@ -1014,4 +1044,28 @@ svg >path{
   .nav-img-photo{
     width: 40px; 
   }
+}
+
+.progress{
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  height: 26px;
+}
+.learn__read-block{
+  width: 80%;
+}
+.learn__content-plan{
+  text-align: center;
+  width: 20%;
+  background: #343a40;
+  padding: 5px;
+}
+.learn__content-plan .progress{
+  height: 16px;
+}
+.icon-small{
+  width: 25px;
+  height: 25px;
+  padding: 3px;
 }

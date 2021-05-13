@@ -18,7 +18,7 @@
 
     <main class="content-wrapper">
         <div class="container text-center">
-            <h1 class="text-center">Разработка игр</h1>
+            <h1 class="text-center">Обучение</h1>
             <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
                 <label class="btn btn-secondary active">
                     <input type="radio" name="options" id="option1" autocomplete="off" checked> Направления
@@ -35,9 +35,9 @@
             </div>
             
             <div class="course-row">
-                <a class="course-btn" href="modules.php">
+                <a class="course-btn" href="unity/unitystart.php">
                     <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Разработка игр на Unity</p> 
+                        <p class="direction-text">Разработка игр</p> 
                         <p class="direction-param">
                             <span>5 <img src="media/module_black.png" alt=""></span>
                             <span>24 часа <img src="media/clock_black.png" alt=""></span>
@@ -47,9 +47,9 @@
                         </div>
                     </button>
                 </a>
-                <a class="course-btn" href="modules.php">
+                <a class="course-btn" href="unity/unitystart.php">
                     <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Исскуственный интеллект</p> 
+                        <p class="direction-text">Работа с искусственным интеллектом</p> 
                         <p class="direction-param">
                             <span>5 <img src="media/module_black.png" alt=""></span>
                             <span>24 часа <img src="media/clock_black.png" alt=""></span>
@@ -61,9 +61,9 @@
                 </a>
             </div>
             <div class="course-row">
-                <a class="course-btn" href="modules.php">
+                <a class="course-btn" href="unity/unitystart.php">
                     <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Информатика</p> 
+                        <p class="direction-text">Создание простых десктомных приложений на C#</p> 
                         <p class="direction-param">
                             <span>5 <img src="media/module_black.png" alt=""></span>
                             <span>24 часа <img src="media/clock_black.png" alt=""></span>
@@ -73,9 +73,9 @@
                         </div>
                     </button>
                 </a>
-                <a class="course-btn" href="modules.php">
+                <a class="course-btn" href="unity/unitystart.php">
                     <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Приложения на Android</p> 
+                        <p class="direction-text">Работа с искусственным интеллектом</p> 
                         <p class="direction-param">
                             <span>5 <img src="media/module_black.png" alt=""></span>
                             <span>24 часа <img src="media/clock_black.png" alt=""></span>
@@ -87,9 +87,9 @@
                 </a>
             </div>
             <div class="course-row">
-                <a class="course-btn" href="modules.php">
+                <a class="course-btn" href="unity/unitystart.php">
                     <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Математика</p> 
+                        <p class="direction-text">Разработка игр</p> 
                         <p class="direction-param">
                             <span>5 <img src="media/module_black.png" alt=""></span>
                             <span>24 часа <img src="media/clock_black.png" alt=""></span>
@@ -99,9 +99,9 @@
                         </div>
                     </button>
                 </a>
-                <a class="course-btn" href="modules.php">
+                <a class="course-btn" href="unity/unitystart.php">
                     <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Физика</p> 
+                        <p class="direction-text">Работа с искусственным интеллектом</p> 
                         <p class="direction-param">
                             <span>5 <img src="media/module_black.png" alt=""></span>
                             <span>24 часа <img src="media/clock_black.png" alt=""></span>
