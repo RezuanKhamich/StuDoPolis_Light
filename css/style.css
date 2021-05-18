@@ -267,14 +267,14 @@ table{
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 /* Form Progress */
-.progress {
+.learn-progress {
   padding: 10px;
-  width: 571px;
+  width: 620px;
   margin: auto;
   height: 78px;
 }
-.progress .circle,
-.progress .bar {
+.learn-progress .circle,
+.learn-progress .bar {
   display: inline-block;
   background: #fff;
   width: 40px; height: 40px;
@@ -285,16 +285,17 @@ table{
   margin: auto;
   border: 1px solid #d5d5da;
 }
-.progress .bar {
+.learn-progress .bar {
   position: relative;
   width: 80px;
-  height: 6px;
+  height: 2px;
+  top: -12px;
   margin: 18px 3px 17px 3px;
   border-left: none;
   border-right: none;
   border-radius: 0;
 }
-.progress .circle .label {
+.learn-progress .circle .label {
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -304,7 +305,7 @@ table{
   color: #b5b5ba;
   font-size: 17px;
 }
-.progress .circle .title {
+.learn-progress .circle .title {
   color: #b5b5ba;
   font-size: 13px;
   line-height: 1;
@@ -314,27 +315,27 @@ table{
 }
 
 /* Done / Active */
-.progress .bar.done,
-.progress .circle.done {
+.learn-progress .bar.done,
+.learn-progress .circle.done {
   background: #eee;
 }
-.progress .bar.active {
+.learn-progress .bar.active {
   background: linear-gradient(to right, #EEE 40%, #FFF 60%);
 }
-.progress .circle.done .label {
+.learn-progress .circle.done .label {
   color: #FFF;
   background: #8bc435;
   box-shadow: inset 0 0 2px rgba(0,0,0,.2);
 }
-.progress .circle.done .title {
+.learn-progress .circle.done .title {
   color: #444;
 }
-.progress .circle.active .label {
+.learn-progress .circle.active .label {
   color: #FFF;
   background: #0c95be;
   box-shadow: inset 0 0 2px rgba(0,0,0,.2);
 }
-.progress .circle.active .title {
+.learn-progress .circle.active .title {
   color: #0c95be;
 }
 .first-title{
@@ -609,7 +610,7 @@ svg >path{
 }
 .module-title{
   line-height: 49px;
-  margin: 0 20px;
+  margin: 18px 20px;
   font-size: 20px;
   color: white;
 }
@@ -1057,15 +1058,19 @@ svg >path{
 }
 .learn__content-plan{
   text-align: center;
-  width: 20%;
+  width: 300px;
   background: #343a40;
-  padding: 5px;
 }
 .learn__content-plan .progress{
-  height: 16px;
+  height: 15px;
+  font-size: 16px;
 }
 .icon-small{
   width: 25px;
   height: 25px;
   padding: 3px;
+}
+.learn__content-plan .wide-progress{
+  height: 5px;
+  border-radius: 0px;
 }

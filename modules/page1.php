@@ -18,7 +18,7 @@
     <main class="d-flex">
         <div class="content-wrapper learn__read-block">
             <div class="jumbotron mb-5">
-                <div class="progress">
+                <div class="learn-progress">
                     <div class="circle active">
                         <span class="label">1</span>
                         <p class="title">Физика 1</p>
@@ -55,61 +55,77 @@
             </div>
             
                 <div class="btn-nav_block d-flex justify-content-between p-2">
-                    <a href=""><button class="btn btn-success disabled" >Назад</button></a>
-                    <a href="page2.php"><button class="btn btn-success">Вперед</button></a>
+                    <a href=""><button class="btn btn-success disabled btn-lg">Назад</button></a>
+                    <a href="page2.php"><button class="btn btn-success btn-lg">Вперед</button></a>
                 </div>
         </div>
         <div class="learn__content-plan">
-            <h3 class="module-title">Unity Start</h3>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68">15/68</div>
+            <div class="p-1">
+                <h3 class="module-title">Unity Start</h3>
+                <p class="text-left text-white-50 mb-1">Прогресс: 0/25</p>
+                <div class="progress mb-4 bg-secondary">
+                    <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68">15/68</div>
+                </div>
             </div>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/done.png" alt=""> 1. Знакомство с интерфейсом</p>
+            <hr class="bg-secondary mb-0">
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
+            <a class="btn module-sections p-0" href="page1.php">
+                <div class="lesson-block mb-2">
+                    <p class="lesson-title"> 1. Знакомство с интерфейсом</p>
+                </div>
+                <div class="progress bg-secondary wide-progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="68"></div>
                 </div>
             </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
-                </div>
-            </a>
-            <a class="btn btn-outline-secondary module-sections p-0 mb-2" href="page1.php">
-                <div class="lesson-block">
-                    <p class="lesson-title"><img class="icon-small" src="../media/" alt=""> 1. Знакомство с интерфейсом</p>
-                </div>
-            </a>
-            <hr>
+
+            <hr class="bg-secondary mb-4">
             <button class="btn btn-outline-secondary disabled module-reward mb-2">Получить награду</button>
         </div>
     </main>
