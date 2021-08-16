@@ -5,10 +5,6 @@
 setcookie("id", "", time() - 3600*24*30*12, "/");
 setcookie("hash", "", time() - 3600*24*30*12, "/",null,null,true); // httponly !!!
 
-/*setcookie("money", "", time() - 3600*24*30*12, "/");
-setcookie("lvl", "", time() - 3600*24*30*12, "/");
-setcookie("box_count", "", time() - 3600*24*30*12, "/");*/
-
 session_unset();
 unset($_SESSION['money']);
 

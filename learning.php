@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="../media/logo.png"/>
         <title>GoGame</title>
@@ -18,186 +18,47 @@
 
     <main class="content-wrapper">
         <div class="container text-center">
-            <h1 class="text-center">Разработка игр</h1>
-            <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
-                <label class="btn btn-secondary active">
-                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Направления
-                </label>
-                <label class="btn btn-secondary">
-                    <input type="radio" name="options" id="option2" autocomplete="off"> Модули
-                </label>
-            </div>
-            <div class="input-group mb-3 pl-2 pr-2">
-                <input type="text" class="form-control" placeholder="Программирование на С#" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary bg-primary text-light" type="button">Найти</button>
-                </div>
-            </div>
-            
-            <div class="course-row">
-                <a class="course-btn" href="modules.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Разработка игр на Unity</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+            <h1 class="text-center mt-5 mb-3">Выбери направление</h1>
+            <div class="course-row mt-5">
+                <a class="course-btn shadow-lg mb-5 bg-white rounded" href="modulePage.php">
+                    <button class="btn btn-case">
+                        <div class="d-flex">
+                            <img class="learn-img" src="../media/joystick.png" alt="">
+                            <div class="learn-info text-left">
+                                <h5 class="learn-card__title">Разработка игр</h5>
+                                <p class="learn-card__text text-secondary">Программирование на С++</p> 
+                                <p class="direction-param">
+                                    <span><img class="mx-2" src="media/module_black.png" alt="">5 модулей</span>
+                                    <span><img class="mx-2" src="media/clock_black.png" alt=""> 24 часа </span>
+                                </p>
+                            </div>
                         </div>
-                    </button>
-                </a>
-                <a class="course-btn" href="modules.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Исскуственный интеллект</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                        </div>
+                        <!--<div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>-->
                     </button>
                 </a>
             </div>
             <div class="course-row">
-                <a class="course-btn" href="modules.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Информатика</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                <a class="course-btn shadow-lg mb-5 bg-white rounded" href="modulePage.php">
+                    <button class="btn btn-case">
+                        <div class="d-flex">
+                            <img class="learn-img" src="../media/frontend.png" alt="">
+                            <div class="learn-info text-left">
+                                <h5 class="learn-card__title">FrontEnd</h5>
+                                <p class="learn-card__text text-secondary">Программирование на С++</p> 
+                                <p class="direction-param">
+                                    <span><img class="mx-2" src="media/module_black.png" alt="">5 модулей</span>
+                                    <span><img class="mx-2" src="media/clock_black.png" alt=""> 24 часа </span>
+                                </p>
+                            </div>
                         </div>
-                    </button>
-                </a>
-                <a class="course-btn" href="modules.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Приложения на Android</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                        </div>
+                        <!--<div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>-->
                     </button>
                 </a>
             </div>
-            <div class="course-row">
-                <a class="course-btn" href="modules.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Математика</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                        </div>
-                    </button>
-                </a>
-                <a class="course-btn" href="modules.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <p class="direction-text">Физика</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                        </div>
-                    </button>
-                </a>
-            </div>
-            <!--<div class="grid-container">
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-case btn-outline-secondary big-plate">
-                        <div class="direction-progress"><span>0%</span></div>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-outline-secondary btn-case">
-                        <p><span class="direction-progress">0%</span></p>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-outline-secondary btn-case">
-                        <p><span class="direction-progress">0%</span></p>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-outline-secondary btn-case">
-                        <p><span class="direction-progress">0%</span></p>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-outline-secondary btn-case">
-                        <p><span class="direction-progress">0%</span></p>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-outline-secondary btn-case">
-                        <p><span class="direction-progress">0%</span></p>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-                <a class="course-btn" href="unity/unitystart.php">
-                    <button class="btn btn-outline-secondary btn-case">
-                        <p><span class="direction-progress">0%</span></p>
-                        <p class="direction-text">Программирование на С#</p> 
-                        <p class="direction-param">
-                            <span>5 <img src="media/module_black.png" alt=""></span>
-                            <span>24 часа <img src="media/clock_black.png" alt=""></span>
-                            <span>4/22 <img src="media/test_black.png" alt=""></span>
-                            <span>15/45 <img src="media/work_black.png" alt=""></span>
-                        </p>
-                    </button>
-                </a>
-            </div>-->
         </div>
     </main>
 

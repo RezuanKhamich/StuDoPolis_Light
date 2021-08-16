@@ -1,4 +1,4 @@
-<?
+<?php
 // Скрипт проверки
 
 require_once 'config.php';
@@ -18,7 +18,7 @@ if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
     else
     {
         //print "Привет, ".$userdata['user_mail'].". Всё работает!";
-        header("Location: unitypage.php"); exit();
+        header("Location: learning.php"); exit();
     }
 }
 else

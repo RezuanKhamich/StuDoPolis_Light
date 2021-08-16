@@ -2,7 +2,7 @@
 session_start();
 
 $host = 'localhost'; // адрес сервера
-$database = 'gogame'; // имя базы данных
+$database = 'studopolis'; // имя базы данных
 $user = 'root'; // имя пользователя
 $password = ''; // пароль
 
@@ -18,5 +18,4 @@ if (!$link) {
 mysqli_set_charset($link, "utf8");
 // Ставим русскую локаль
 setlocale(LC_ALL, "ru_RU.UTF-8");
-
 ?>
